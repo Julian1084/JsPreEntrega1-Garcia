@@ -47,9 +47,10 @@ if (edad >= 18) {
         cantidad6 = Number(prompt("Ingrese la cantidad de Picadas para 15 a comprar"))
         break
       case "0":
-               break
-        default:
-          alert("Por favor ingrese alguna de las opciones válidas")
+        break
+      default:
+        alert("Por favor ingrese alguna de las opciones válidas")
+        break
     }
   } while (opcionCompra != 0)
   if (cantidad1 + cantidad2 + cantidad3 + cantidad4 + cantidad5 + cantidad6 > 0) {
