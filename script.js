@@ -81,5 +81,5 @@ if (edad >= 18) {
         }
     }
     else{
-  alert(nombre + "Debe ser mayor de edad para realizar la compra")
+  alert(nombre + " Debe ser mayor de edad para realizar la compra")
 }
