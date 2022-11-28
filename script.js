@@ -72,7 +72,7 @@ if (edad >= 18) {
     alert("Total a pagar con Impuestos: $ " + totalAPagar)
     cantidadCuotas = Number(prompt("Por favor ingrese la cantidad de cuotas"))
     for (let i = 0; i < cantidadCuotas; i++) {
-        let salidaCuotas = "Pagará en " + cantidadCuotas + " cuotas de $" + (totalAPagar / cantidadCuotas).toFixed(2) +"\n Cuota " + (i+1) + " de $ " + (totalAPagar / cantidadCuotas)
+        let salidaCuotas = "Pagará en " + cantidadCuotas + " cuotas de $" + (totalAPagar / cantidadCuotas).toFixed(2) +"\n Cuota " + (i+1) + " de $ " + (totalAPagar / cantidadCuotas).toFixed(2)
         alert(salidaCuotas)   
             }
             alert("Muchas gracias " + nombre + " por comprar en Camino al Mundial: Picadas \nEsperamos que disfrute de nuestros productos")
