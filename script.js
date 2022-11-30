@@ -21,7 +21,7 @@ let edad = Number(prompt("Ingrese su edad"))
 if (edad >= 18) {
   alert("Bienvenido " + nombre)
   alert(
-    "A continuación Usted podrá realizar la compra. \nRecuerde que comprando tres o más unidades se realizará un descuento de 10%. \nLos precios no tienen IVA"
+    "A continuación Usted podrá realizar la compra. \nRecuerde que comprando tres o más unidades se realizará un descuento de 10%. \nLos precios no tienen IVA \nPara finalizar compra no te olvides de utilizar la opción 0"
   )
   do {
     opcionCompra = prompt(
